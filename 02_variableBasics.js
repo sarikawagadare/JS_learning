@@ -1,0 +1,40 @@
+console.log("--------String Variables-------");
+var fName="anna";
+var city="Kaula Lumpure";
+var natinality="Indian";
+console.log("name is:",fName,"||type is:",typeof(fName));
+console.log("city is:",city,"||type is:",typeof(city));
+console.log("Natinality:",natinality,"||type is:",typeof(natinality));
+console.log("--------------********----------------");
+console.log("-------Number Variables--------");
+var Quantity=500;
+var price=300;
+var discount=12.5;
+console.log("Quanity is:",Quantity,"||type is:",typeof(Quantity));
+console.log("Price is:",price,"||type is:",typeof(price));
+console.log("Discount:",discount,"||type is:",typeof(discount));
+console.log("--------------********----------------");
+console.log("------Boolean Variables--------");
+var isMale=false;
+var isShort=true;
+var isFaire=false;
+console.log("------Boolean Variable1--------");
+console.log("type is:",typeof(isMale));
+console.log("------Boolean Variable2--------");
+console.log("type is:",typeof(isShort));
+console.log("------Boolean Variable3--------");
+console.log("type is:",typeof(isFaire));
+console.log("--------------********----------------");
+console.log("Null Vs Undefined");
+
+console.log("in undefined variable we declared variable we are not initialize any value");
+console.log("in null variable we declared variable and assign value null");
+
+console.log("example:var empName with undefiend");
+var empName;
+console.log("example:var empName;");
+console.log(empName);
+
+console.log("example:var empName=null;");
+var empName=null;
+console.log(empName,typeof(empName));
