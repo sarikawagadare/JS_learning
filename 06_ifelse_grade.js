@@ -9,7 +9,7 @@
             console.log(` not eligible for vote`);
         } 
         else {
-            console.log(`eligible for vote`);
+            console.log(` eligible for vote `);
         }
     }
 }
