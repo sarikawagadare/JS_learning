@@ -1,8 +1,8 @@
 
 
- function voteEligiblefun(age){
+ var func = function voteEligiblefun(age){
     if (age== 0 || age<0 || age>130 ) {
-        console.log(`Invalid Data`);
+        console.log(` Invalid Data`);
     } else
      {
         if (age<18) {
@@ -13,8 +13,8 @@
         }
     }
 }
-voteEligiblefun(45);
-voteEligiblefun(17);
-voteEligiblefun(8);
-voteEligiblefun(20);
-voteEligiblefun(-10);
+func(45);
+func(17);
+func(20);
+func(-10);
+func(8);
